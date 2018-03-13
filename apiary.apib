@@ -23,7 +23,14 @@ Access Sensor resources
 
 + Response 200 (application/json)
 
-        {
+    + Header
+        
+            ETag: "YWRtaW46SXZzZzEyMzQ="
+            cache-control: max-age=600
+
+    + Body
+    
+            {
             "page":{
                 "number": 1,
                 "size": 10,
